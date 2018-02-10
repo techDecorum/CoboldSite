@@ -1,0 +1,38 @@
+/* Your Custom Styles */
+
+@import url('https://fonts.googleapis.com/css=Raleway');
+@import url('https://fonts.googleapis.com/css=Oswalk');
+
+html,
+body {
+    height: 100%;
+}
+
+.body {
+    background-color:#F4F5F5;
+}
+
+.btn {
+    border-radius:0px;
+}
+
+.h1 {
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.label a {
+    text-align:center;
+}
+
+.form {
+
+}
+
+.jumbotron {
+    margin-top: 150px;    
+}
+
+.container {
+    margin-right:200px;
+}

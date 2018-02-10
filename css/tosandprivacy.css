@@ -1,0 +1,22 @@
+/* Your Custom Styles */
+
+@import url('https://fonts.googleapis.com/css=Raleway');
+@import url('https://fonts.googleapis.com/css=Oswalk');
+
+html,
+body {
+    height: 100%;
+}
+
+.body {
+    background-color:#F4F5F5;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 2em;
+}
+
+p {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,48 @@
+/* Your Custom Styles */
+
+@import url('https://fonts.googleapis.com/css=Raleway');
+@import url('https://fonts.googleapis.com/css=Oswalk');
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+
+html,
+body {
+    height: 100%;
+}
+
+.body {
+    background-color:#F4F5F5;
+}
+
+.btn {
+    border-radius:0px;
+    
+}
+
+.h1 {
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.label a {
+    text-align:center;
+}
+
+.jumbotron {
+    margin-top: 150px;    
+}
+
+.custom-bullet li {
+    display: block;
+}
+
+    .custom-bullet li:before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content: "\e080";
+        font-family: 'Glyphicons Halflings';
+        font-size: 9px;
+        float: left;
+        margin-top: 4px;
+        margin-left: -17px;
+        color: #CCCCCC;
+    }
+

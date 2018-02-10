@@ -1,0 +1,128 @@
+/* Your Custom Styles */
+
+@import url('https://fonts.googleapis.com/css=Raleway');
+@import url('https://fonts.googleapis.com/css=Oswalk');
+
+html,
+body,
+header,
+#intro {
+    height: 100%
+   
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding:10px 10px 10px 30px;
+    text-decoration:none;
+    text-align:center;
+    font-size:22px;
+    color:#ccc;
+    display:block;
+    transition:0.3s;
+}
+
+.side-nav a:hover{
+    color:#fff;
+}
+
+.side-nav .btn-close{
+    position:absolute;
+    top:0;
+    right:22px;
+    font-size:36px;
+    margin-left:50px;
+}
+
+#main{
+    transition:margin-left 0.5s;
+    padding:20px;
+    overflow:hidden;
+    width:100%;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn btn-success {
+    width: 300px;
+}
+
+.btn-primary {
+margin: 0px 7px;
+}
+
+
+.view {
+    background-image: url('../images/Negotation-home.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: table;
+    width: 100%;
+    
+}
+
+.view .container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contentbody {
+
+}
+
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0px 0px 300px #000;   
+}
+
+ .content p {
+     font-family: 'Raleway', sans-serif;
+     color: #F9F3F4;
+     text-shadow: 0px 0px 300px #000;
+}
+
+ .bodybox {
+     max-width: 300px;
+ }
+
+.image {
+    img src="images/500X500.png"
+}
+
+.col-md-7 order-md-2 {
+    margin-top: 40px;
+}
+
+.form-control {
+    width: 70%;
+    margin:auto;
+}
+
+
+<button type="button class="btn btn-succes text-center" style="width 75%; margin-top:10px; margin-left:40px;
